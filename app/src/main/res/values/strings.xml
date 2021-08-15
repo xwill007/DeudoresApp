@@ -28,4 +28,10 @@
     <string name="login">Iniciar Sesion</string>
     <string name="info_registrarse">¿No tienes Cuenta? REGISTRARSE click Aqui.</string>
     <string name="loginTitle">Introduca sus datos de Usuario</string>
+    <string name="requiered_field">*Campo requerido</string>
+    <string name="email_hint">Digite el email</string>
+    <string name="password_hint">Digite su contraseña</string>
+    <string name="rep_password">Repita su contraseña</string>
+    <string name="save">Guardar</string>
+    <string name="register_form">Formulario de registro</string>
 </resources>
