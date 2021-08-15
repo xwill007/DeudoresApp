@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">DeudoresApp</string>
+    <string name="title_list">Lista</string>
+    <string name="title_create">Crear</string>
+    <string name="title_read">Buscar</string>
+    <string name="title_update">Actualizar</string>
+    <string name="title_delete">Borrar</string>
+    <string name="name_hint">Digite el nombre</string>
+    <string name="phone_hint">Digite el telefono</string>
+    <string name="amout_hint">Digite el valor de la deuda</string>
+    <string name="create">Crear</string>
+    <string name="example_name">Wilber Vargas</string>
+    <string name="example_amount">120000</string>
+    <string name="title_detail">Detalle del deudor</string>
+    <string name="example_phone">3108767692</string>
+    <string name="phone_value">Teléfono: %s</string>
+    <string name="amount_value">Valor de la deuda: $ %s</string>
+    <string name="dont_exist">No Existe</string>
+    <string name="debtor_eliminated">Deudor eliminado</string>
+    <string name="debtor_updated">Deudor Actualizado</string>
+    <string name="accept">Aceptar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="want_to_eliminate">\"Desea Eliminar a \"</string>
+    <string name="your_debt_is">\", su deuda es: \"</string>
+</resources>
