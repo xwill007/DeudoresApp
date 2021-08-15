@@ -23,4 +23,9 @@
     <string name="want_to_eliminate">\"Desea Eliminar a \"</string>
     <string name="your_debt_is">\", su deuda es: \"</string>
     <string name="empty" />
+    <string name="UserEmailHint">Email de Usuario</string>
+    <string name="UserPasswordHint">Contraseña</string>
+    <string name="login">Iniciar Sesion</string>
+    <string name="info_registrarse">¿No tienes Cuenta? REGISTRARSE click Aqui.</string>
+    <string name="loginTitle">Introduca sus datos de Usuario</string>
 </resources>

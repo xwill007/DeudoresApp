@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/wilbe/AndroidStudioProjects/DeudoresApp/app/src/main/res/drawable-v24/ic_baseline_key_24.xml" value="0.21354166666666666" />
+        <entry key="..\:/Users/wilbe/AndroidStudioProjects/DeudoresApp/app/src/main/res/drawable-v24/ic_baseline_person_24.xml" value="0.21354166666666666" />
+        <entry key="..\:/Users/wilbe/AndroidStudioProjects/DeudoresApp/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Users/wilbe/AndroidStudioProjects/DeudoresApp/app/src/main/res/layout/activity_main.xml" value="0.16" />
         <entry key="..\:/Users/wilbe/AndroidStudioProjects/DeudoresApp/app/src/main/res/layout/card_view_debtors_item.xml" value="0.33" />
         <entry key="..\:/Users/wilbe/AndroidStudioProjects/DeudoresApp/app/src/main/res/layout/fragment_create.xml" value="0.22" />
