@@ -22,4 +22,5 @@
     <string name="cancel">Cancelar</string>
     <string name="want_to_eliminate">\"Desea Eliminar a \"</string>
     <string name="your_debt_is">\", su deuda es: \"</string>
+    <string name="empty" />
 </resources>
