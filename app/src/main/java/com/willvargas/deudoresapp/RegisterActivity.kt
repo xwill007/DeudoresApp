@@ -3,10 +3,12 @@ package com.willvargas.deudoresapp
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.widget.Toast
 import androidx.core.widget.addTextChangedListener
+import com.willvargas.deudoresapp.data.dao.UserDAO
+import com.willvargas.deudoresapp.data.entities.User
 import com.willvargas.deudoresapp.databinding.ActivityRegisterBinding
+import java.sql.Types
 
 class RegisterActivity : AppCompatActivity() {
 
@@ -32,7 +34,7 @@ class RegisterActivity : AppCompatActivity() {
             if (email.isNotEmpty() and name.isNotEmpty() and phoneNumber.isNotEmpty() ) {
                 if (password == repPassword) {
                     registerBinding.repPasswordTextInputLayout.error = null
-                    guardarEnRoom()
+                    guardarEnRoom(name,phoneNumber,email,password)
                 } else {
                     registerBinding.repPasswordTextInputLayout.error = getString(R.string.password_error)
                 }
@@ -41,8 +43,10 @@ class RegisterActivity : AppCompatActivity() {
 
     }
 
-    private fun guardarEnRoom() {
-        TODO("Not yet implemented")
+    private fun guardarEnRoom(name: String,phoneNumber: String, email: String, password: String) {
+        val usuario = User(id= Types.NULL, nombre=name, telefono=phoneNumber, correo=email, clave=password)
+        val userDAO : UserDAO = DeudoresApp.databaseUser.UserDAO()
+        userDAO.insertUser(usuario)
         goToLogin()
     }
 

@@ -37,4 +37,5 @@
     <string name="password_error">Las contraseñas no son iguales</string>
     <string name="data_Error">Debe rellenar todos los campos</string>
     <string name="password4digit">contraseña de minimo 4 digitos</string>
+    <string name="password_different">La contraseña no coincide</string>
 </resources>

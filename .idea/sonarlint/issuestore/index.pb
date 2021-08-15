@@ -3,8 +3,6 @@ l
 <app/src/main/java/com/willvargas/deudoresapp/MainActivity.kt,2\f\2f0e916bb97d148e2cd400a8a9bb29f020dbb820
 u
 Eapp/src/main/java/com/willvargas/deudoresapp/ui/list/ListViewModel.kt,a\c\ace765d6fc9c0bd99964db82491dd01666ec7d99
-s
-Capp/src/main/java/com/willvargas/deudoresapp/data/DebtorDatabase.kt,3\1\31c0e3c035fb98e39ac53e9fdf71653c4d02096b
 x
 Happ/src/main/java/com/willvargas/deudoresapp/ui/create/CreateFragment.kt,0\b\0b38f1a2f625a87d4609db67182205ee8db3be49
 @
