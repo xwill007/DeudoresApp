@@ -22,7 +22,7 @@ class SplashActivity : AppCompatActivity() {
     }
 
     private fun goToActivity() {
-        val intent = Intent (this, MainActivity::class.java)
+        val intent = Intent (this, LoginActivity::class.java)
         startActivity(intent)
         finish()
     }

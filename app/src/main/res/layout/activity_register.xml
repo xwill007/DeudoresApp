@@ -70,7 +70,8 @@
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:endIconMode="password_toggle">
+            app:endIconMode="password_toggle"
+            app:helperText="@string/password4digit">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/password_edit_text"

@@ -34,4 +34,7 @@
     <string name="rep_password">Repita su contraseña</string>
     <string name="save">Guardar</string>
     <string name="register_form">Formulario de registro</string>
+    <string name="password_error">Las contraseñas no son iguales</string>
+    <string name="data_Error">Debe rellenar todos los campos</string>
+    <string name="password4digit">contraseña de minimo 4 digitos</string>
 </resources>
